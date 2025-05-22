@@ -186,7 +186,7 @@ const main = async () => {
           console.log("Error: ", error);
           await bot.sendMessage(
             process.env.IMDUCHUYYY_ID as string,
-            "Fail to submitting order"
+            "Fail to submitting order" + JSON.stringify(error)
           );
           return;
         }
