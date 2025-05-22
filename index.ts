@@ -19,7 +19,7 @@ const signalMessage = (
   stopLost: string[],
   tp: string[]
 ) => `
-<b>${pos} $${ticker.toUpperCase()} ${leverage}x 1R [#${signalNumber}] [Bot-trading-trend]</b>
+<b>${pos} $${ticker.toUpperCase()} ${leverage}x 1R [#${signalNumber}] [Bot-drift-trend]</b>
 
 <b>Entry</b>: ${entry.join(" - ")}
 <b>SL</b>: ${stopLost.join(" - ")}
