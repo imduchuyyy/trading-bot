@@ -61,7 +61,6 @@ function formatNumber(num: number, maxSig = 3): string {
     }
   }
 
-  console.log("out: ", out);
   return intPart + "." + out;
 }
 
